@@ -43,16 +43,15 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-
   color: $icons-gray;
+  &:hover,
+  &:focus {
+    background-color: $emphasis-color;
+    color: white;
+  }
 }
 .social-links-list .social-item + .social-item {
   margin-left: 10px;
-}
-.social-links-list .link:hover,
-.social-links-list .link:focus {
-  background-color: $emphasis-color;
-  color: white;
 }
 .social-links-list .link .social-icon {
   --color1: currentColor;

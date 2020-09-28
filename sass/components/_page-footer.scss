@@ -20,11 +20,12 @@
 }
 .footer-adress-nav .link {
   color: $adress-links-text-color;
+  &:hover,
+  &:focus {
+    color: $emphasis-color;
+  }
 }
-.footer-adress-nav .link:hover,
-.footer-adress-nav .link:focus {
-  color: $emphasis-color;
-}
+
 .footer-adress-nav .item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -48,12 +49,13 @@
 .join-us .social-links-list .link {
   background-color: $footer-icons-background;
   color: #fff;
+  &:hover,
+  &:focus {
+    background-color: $emphasis-color;
+    color: #fff;
+  }
 }
-.join-us .social-links-list .link:hover,
-.join-us .social-links-list .link:focus {
-  background-color: $emphasis-color;
-  color: #fff;
-}
+
 .footer-sign {
   margin-left: 93px;
 }
@@ -71,16 +73,7 @@
   justify-content: center;
   align-items: center;
 }
-.footer-sign .sign-mail::placeholder {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.25;
-  /* identical to box height, or 125% */
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .footer-sign .sign-mail {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -97,10 +90,20 @@
   /* identical to box height, or 125% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-sign .sign-mail:focus {
-  outline: none;
-  border-color: $emphasis-color;
+  &::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &:focus {
+    outline: none;
+    border-color: $emphasis-color;
+  }
 }
 .footer-sign .button {
   display: flex;
@@ -118,14 +121,13 @@
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
   color: #ffffff;
+  &:hover,
+  &:focus {
+    color: $emphasis-color;
+    background-color: $page-background-color;
+  }
 }
 .footer-sign .button .sign-icon {
   margin-left: 10px;
   fill: currentColor;
-}
-.footer-sign .button:hover,
-.footer-sign .button:focus {
-  color: $emphasis-color;
-
-  background-color: $page-background-color;
 }

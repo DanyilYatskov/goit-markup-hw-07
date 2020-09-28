@@ -48,11 +48,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  &:hover,
+  &:focus {
+    fill: $emphasis-color;
+  }
 }
-.modal-close:hover,
-.modal-close:focus {
-  fill: $emphasis-color;
-}
+
 .modal .modal-title {
   margin: 0;
   margin-bottom: 12px;
