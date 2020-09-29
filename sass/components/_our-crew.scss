@@ -28,32 +28,7 @@
 .our-crew .text {
   margin-bottom: 16px;
 }
-.social-links-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .our-crew .social-links-list {
   margin-bottom: 30px;
-}
-.social-links-list .link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  color: $icons-gray;
-  &:hover,
-  &:focus {
-    background-color: $emphasis-color;
-    color: white;
-  }
-}
-.social-links-list .social-item + .social-item {
-  margin-left: 10px;
-}
-.social-links-list .link .social-icon {
-  --color1: currentColor;
-  --color4: currentColor;
 }

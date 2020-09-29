@@ -27,13 +27,6 @@ body {
 } */
 // }---
 
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
 .link {
   text-decoration: none;
   transition: color 250ms $animation-timing,
@@ -60,24 +53,4 @@ body {
 .text {
   margin: 0;
 }
-.section-paddings {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.section-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  color: $secondary-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
