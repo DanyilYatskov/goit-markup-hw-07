@@ -91,21 +91,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Header Styles */
-.header {
-  border-bottom: 1px solid #ececec;
-}
-
-.header .container,
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .logo {
   margin-right: 93px;
   color: #212121;
@@ -119,6 +104,21 @@ body {
 
 .logo-web {
   color: #2196f3;
+}
+
+/* Header Styles */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header .container,
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header .link {
